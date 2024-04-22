@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+    <title>calculadora</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="textoum">
+            <h2 class="fonte1"> CALCULADORA</h2>
+        </div>
+        <div class="operacao">
+          <select class="select"  id="operadores">
+            <option selected disabled>Escolha uma operação</option>
+            <option value="soma">+</option>
+            <option value="subtracao">-</option>
+            <option value="divisao">/</option>
+            <option value="multiplicacao">*</option>
+          </select>  
+        </div>
+        
+        <div id="bloco2"> 
+            <h3>Primeiro Número</h3></div>
+        <div class="bloco3">
+            <input type="number" id="numero1">
+        
+        </div>
+        <div id="bloco4"> 
+            <h3>Segundo Número</h3>
+            <input type="number" id="numero2">
+        </div>
+        
+        <button type="button" onclick="calcular()">Calcular</button>
+
+        <div class="resultado"> 
+            <h2 class="bloco5"> O resultado foi: <span class="resultado"></span></h2>
+        </div>
+    </div>
+</body>
+</html>

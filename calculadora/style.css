@@ -1,0 +1,51 @@
+.principal{
+    width: 25%;
+    height: 60%;
+    background-color: antiquewhite;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.textoum{
+    margin-left: 30%;
+    margin-top: 3%;
+    padding-top: 15px;
+}
+
+#select{
+    width: 60%;
+    height: 5%;
+    margin-left: 20%;
+}
+
+#bloco2{
+    margin-left: 20%;
+}
+
+.bloco3{
+    margin-left: 20%;
+    
+}
+
+#bloco4{
+    margin-left: 20%;
+}
+
+.final{
+    background-color: darkgrey;
+    width: 37%;
+    height: 5%;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+
+.calcular{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    margin-bottom: -5px;
+}
+
+.resultado{
+    margin-left: 20%;
+}
